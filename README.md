@@ -5,6 +5,9 @@ Made in Gamemaker (lol)
 FUTURE UPDATES
 
 6.2.2019
+ - HEY! okay. So. Origin at 0,0, or Origin at the center, so the primitives and drawing can wrap around it? I like the second option more. Sleep on it.
+ - Right now, the below stuff plans for LINE DRAWING. Controlling primitives will have to come a bit later.
+ - IMPORTANT: Decide if, when HORSPC  and VERSPC are changed, the drawing while SCALE to that change, or their values will simply be UPDATED. IF A: Their X and Y is based on calculations from the POV of the origin. IF B: Their X and Y is seperate from their grid-based coordinates and only the coords depend on the origin.
  - Origin is obj_CONTROL (consider renaming lol). Room will scroll (eventually) but Origin cannot be moved further onto screen than the top left. Consider adding a border/buffer so that the top left of the grid is not the true top left of the programme screen, but lines still cannot be drawn past that desu ;)
  - Default colours (personal palette) and also a colour picker (inputting RGB would be the best way to do that)
  - Just occured to me, since we'll be using lines and primitives and stuff this is technically a vector drawing program?? Sexy.
@@ -25,5 +28,10 @@ FUTURE UPDATES
      - Horizontal spacing (type to change)
      - Vertical spacing (type to change)
      - Colour bar (grid of preselected colours with rgb input at the side) (can collapse)
-     - Layer toggle (can collapse)
- -
+     - Layer select (can collapse)
+     - Fullscreen toggle
+ - Zoom control (oh god) using the scroll wheel or using a zoom bar.
+ - Scroll control using either arrow keys or a space+clickdrag
+ - Feature: Consider settings menu to account for misc stuff
+ - Feature: Make side menu minimisable????? FUck...... shit......
+ - Make background grid colours variable, maybe, unlikely, actually, fuck that.
