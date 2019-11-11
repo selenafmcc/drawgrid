@@ -3,6 +3,12 @@ A drawgrid for primitives! Mostly for my own convenience.
 Made in Gamemaker (lol)
 
 CHANGELOG
+11.10.2019
+ - ohhh my gosh i'm so tired what did i even do today
+ - I implemented nodes. Every node is an OBJ with a partner array that lists any connecting nodes and auto-draws lines between them
+ - nodes can be created on lmb down and moved around until lmb up.
+ - I'm so tired i cant remember. More tomorrow
+
 6.3.2019
  - Set origin to the center of a 2000x2000 canvas
  - Added canvas scrolling
@@ -41,4 +47,12 @@ FUTURE UPDATES
      - Layer select (can collapse)
  - Zoom control (oh god) using the scroll wheel or using a zoom bar.
  - Feature: Consider settings menu to account for misc stuff (like GUI scaling for later monitors)
- - Make background grid colours variable, maybe, unlikely, actually, fuck that.
+ - Make background grid colours variable, maybe, unlikely, actually, fuck that.  EDIT: yeah thats fine. no p. lets die together.
+
+11.10.19
+ - Shift clicking need a script that runs through activenodes partner array and makes sure there's an empty space for it.
+ - If new nodes x/y is within "size" pixels from an existing node, just set that existing node as the endpoint. This can be done fairly easily by keeping in mind every node has a HOVER variable. (if hover var in node nearest to mouse is active and its not activenode, set it as activenodes partner, if theres space for it. i am. SO tired.)
+ - various node characteristics (colour, layer, SNAP etc) cant be tweaked until those options are available in the menu. Desu.
+ 
+ 
+ 
